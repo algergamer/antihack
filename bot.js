@@ -10,7 +10,7 @@ const slowmode_mentions = new Map();
 const slowmode_links = new Map();
 const slowmode_attachments = new Map();
 const ratelimit = 7500; // within 7.5 seconds
-const logChannel = " CHANNEL ID HERE"; // logs channel id
+const logChannel = "hack-log"; // logs channel id
  
 client.on("message", message => {
  
